@@ -1,3 +1,7 @@
+/* Time complexity: O(log(m*n))
+ * Space complexity: O(1)
+ */
+
 class Solution {
     public int search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
